@@ -12,6 +12,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
+<<<<<<< HEAD
     margin: 0;
 }
 
@@ -66,6 +67,9 @@ body {
 
     font-weight: 600;
     font-size: 125%;
+=======
+    margin: 10px;
+>>>>>>> 5c4438c148d2cc2de493ca81eff0bad4b3cd689b
 }
 .menu-title--beef {
     background-color: var(--menu-beef-color);
