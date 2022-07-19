@@ -27,6 +27,7 @@ body {
     height: 100vh;
     width: 100%;
     padding: 100px 15px 0 15px;
+    
 }
 
 .menu-section {
@@ -83,13 +84,14 @@ body {
     .menu-section {
         width: 50%;
     }
+
     .menu-section:nth-child(4) {
-        width: 101%;
-        margin: 10px 0 0 -0.5%;
+        width: 100%;
+        margin: 10px 0 0 0;
     }
 
-    .menu-content {
-        width: 98%;
+    .menu-section:nth-child(4) .menu-content{
+        width: 95%;
     }
 }
 
